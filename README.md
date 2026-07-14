@@ -2,8 +2,8 @@
 
 CloudExify C++ Summer Internship 2026
 
-**Name:** _[your name]_
-**Registration Number:** _[your registration number]_
+Name:Muhammad Alyan Abbasi
+
 
 ## About
 
@@ -32,23 +32,3 @@ Extra stuff I added:
 - Everything gets logged to a history file with a timestamp
 - A couple of small "achievements" if you guess fast or in very few tries
 - Color in the terminal output so wins/losses/hints are easier to tell apart
-
-## Screenshots
-
-![Gameplay 1](screenshots/gameplay1.png)
-
-![Gameplay 2](screenshots/gameplay2.png)
-
-## How to Run
-
-```bash
-g++ guess_game.cpp -o guess_game
-./guess_game
-```
-
-On Windows just run `guess_game.exe` after compiling.
-
-## Files
-
-- `guess_game.cpp` — the actual game
-- `bestscore.txt`, `topscores.txt`, `stats.txt`, `besttime.txt`, `history.txt` — these get created automatically the first time you run it, they just store your progress
